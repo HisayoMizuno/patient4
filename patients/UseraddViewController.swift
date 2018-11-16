@@ -187,6 +187,7 @@ class UseraddViewController: UIViewController , UIPickerViewDelegate, UIPickerVi
     }
     
     //---------------
+    //--------------
     
     //新規登録実行-----------------------------------------------
     @IBAction func useraddButon(_ sender: UIButton) {
