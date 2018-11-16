@@ -186,11 +186,11 @@ class UseraddViewController: UIViewController , UIPickerViewDelegate, UIPickerVi
         }
     }
     
-    //----
+    
     
     //新規登録実行-----------------------------------------------
     @IBAction func useraddButon(_ sender: UIButton) {
-        print("登録実行")
+        print("登録実行しました")
         if self.nameTextField.text == "" {
             viewAlertUser(sts: 1)
         }
